@@ -1,13 +1,14 @@
-<h2>📦 Install & Run</h2>
-  <pre>
-pip install -r requirements.txt
-uvicorn main:app --reload --host 0.0.0.0 --port 8000
-  </pre>
 <!DOCTYPE html>
 <html lang="en">
 <body>
   <h1>✅ Debug Log: blood_test_analyzer_debug</h1>
 
+  <h2>📦 Install & Run</h2>
+  <pre>
+pip install -r requirements.txt
+uvicorn main:app --reload --host 0.0.0.0 --port 8000
+  </pre>
+  
   <h2>1) Fix Agent Import Path</h2>
   <div class="fix">
     <strong>Before:</strong>
