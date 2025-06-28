@@ -89,9 +89,5 @@ description: str = "Load text from blood test PDF"
 pip install -r requirements.txt
 uvicorn main:app --reload --host 0.0.0.0 --port 8000
   </pre>
-
-  <div class="footer">
-    <p>Nice work! Your repository is now clean, compliant, and ready for submission. Let me know if you'd like help polishing the README or adding bonus features! 🎉</p>
-  </div>
 </body>
 </html>
