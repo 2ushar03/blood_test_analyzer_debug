@@ -1,3 +1,8 @@
+<h2>📦 Install & Run</h2>
+  <pre>
+pip install -r requirements.txt
+uvicorn main:app --reload --host 0.0.0.0 --port 8000
+  </pre>
 <!DOCTYPE html>
 <html lang="en">
 <body>
@@ -70,10 +75,5 @@ description: str = "Load text from blood test PDF"
   <h2>12) Agent Tools Passed Incorrectly</h2>
   <p><em>Fix:</em> Pass `BloodTestReportTool()`—not its method—to `tools=[ … ]`. CrewAI requires a proper tool instance.</p>
 
-  <h2>📦 Install & Run</h2>
-  <pre>
-pip install -r requirements.txt
-uvicorn main:app --reload --host 0.0.0.0 --port 8000
-  </pre>
 </body>
 </html>
