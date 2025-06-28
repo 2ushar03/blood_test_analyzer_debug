@@ -1,19 +1,5 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-  <meta charset="UTF-8">
-  <title>🐛 Blood Test Analyzer — Debug Fixes</title>
-  <style>
-    body { font-family: Arial, sans-serif; margin: 20px; line-height: 1.6; }
-    h1 { color: #2E86C1; }
-    h2 { color: #1F618D; margin-top: 1em; }
-    .fix { background: #F4F6F7; border-left: 5px solid #3498DB; padding: 10px; margin: 15px 0; }
-    code { background: #F0F3F4; padding: 2px 4px; border-radius: 3px; }
-    pre { background: #F0F3F4; padding: 10px; border-radius: 3px; overflow: auto; }
-    ul { margin: 0; padding-left: 20px; }
-    .footer { margin-top: 2em; font-size: 0.9em; color: #555; }
-  </style>
-</head>
 <body>
   <h1>✅ Debug Log: blood_test_analyzer_debug</h1>
 
